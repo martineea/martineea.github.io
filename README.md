@@ -1,6 +1,6 @@
 # martineea.github.io
 
-To-do:
+###To-do:
 - Gjøre layout finere:
     - Endre farger, bakgrunnsfarge, osv.
 - Fikse navbar
@@ -10,3 +10,4 @@ To-do:
 - Fikse slik at når man trykker på pdf-filen så åpnes det i nytt vindu
 - Fikse slik at ikonet på dokumenter blir på lik linkje som "last ned pdf"-teksten
 - Midtstille profilbildene våres
+- Fikse slik at bildene blir skalert riktig når mindre skjerm
