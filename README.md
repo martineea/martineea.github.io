@@ -1,6 +1,6 @@
 # martineea.github.io
 
-###To-do:
+### To-do:
 - Gjøre layout finere:
     - Endre farger, bakgrunnsfarge, osv.
 - Fikse navbar
