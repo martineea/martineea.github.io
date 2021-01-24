@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-img {
@@ -29,3 +39,74 @@ body {
 .nav-link {
     font-size: 1.1em !important;
 }
+
+#zisson {
+    background-color: #87bdd8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#kontaktkort {
+    background-color: #b7d7e8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#dokumenter {
+    background-color: #daebe8;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.card-deck {
+    margin-bottom: 250px;
+    align-items: center;
+}
+
+#footer {
+    background-color: #cfe0e8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fa-facebook {
+    color: #2163af;
+    font-size: 50px;
+}
+
+.fa-linkedin {
+    color: #3b5998;
+    font-size: 50px;
+}
+
+.fa-phone {
+    color: black;
+    font-size: 50px;
+}
+
+.fa-envelope {
+    color: black;
+    font-size: 50px;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+i {
+    font-size: 24px;
+}
+
+
+
+
+
