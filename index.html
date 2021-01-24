@@ -17,13 +17,11 @@
     <!-- Bibliotek mail-ikon-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="wwwroot/index.css">
-
     <title>Zisson</title>
 </head>
-
 <body>
 
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 100px;">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand"></a>
     <img src="Profilepictures/zissonLogo.png" alt="ZissonLogo" width="40" height="40">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -36,7 +34,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#gruppemedlemmer">Medlemmer</a>
+                <a class="nav-link" href="#kontaktkort">Medlemmer</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#dokumenter">Dokumenter</a>
@@ -45,8 +43,7 @@
     </div>
 </nav>
 
-<div class="container-sm bg-white w-15" style="margin-top: 40px; margin-bottom: 40px;">
-        <div class="container-fluid padding">
+    <div class="container-fluid padding" id="zisson">
         <div class="row-welcome text-center">
             <div class="col-12">
                 <h1 class="display-4 lead"><b>Zisson Wallboard</b></h1>
@@ -55,174 +52,187 @@
                     <div style="margin-bottom: 50px;">
                         <a href="https://www.zisson.no/zisson/" target="_blank">
                             Besøk
-                            <img class="zisson-logo" src="Profilepictures/zissonlogo.png" alt="Zissonlogo" width="80" height="30">
-                        </a>  
+                            <img class="zisson-logo" src="Profilepictures/zisson.png" alt="Zissonlogo" width="80" height="30">
+                        </a>
                     </div>
             </div>
         </div>
     </div>
-    <div id="gruppemedlemmer" style="height: 60px"></div>
-    
+
     <!-- KONTAKTKORT-->
-        <div class="container-fluid padding">
-        <div class="row-welcome text-center">
-            <div class="col-12">
-                <h3 class="display-4">Gruppemedlemmer</h3>
-            </div>
+        <div class="container-fluid padding" id="kontaktkort">
+            <h3 class="display-4">Gruppemedlemmer</h3>
             <hr>
-        </div>
-    </div>
-    <div class="card-deck" style="margin-bottom: 250px;">
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-            <p></p>
-            <div class="profilbilde" style="width:100%; text-align:center">
-                <img class="card-img" src="Profilepictures/Nikola3.png" alt="Bilde av Nikola">
-            </div>
-            <div class="card-body">
-                <div class="card-body-block text-center">
-                    <h5 class="card-title">Nikola Sekiw</h5>
-                    <p class="card-text">Anvendt datateknologi</p>
-                    <div class="card-block">
-                        <a href="mailto: s333975@oslomet.no">
-                            <i style="font-size:24px" class="fa">&#xf0e0;</i>
-                        </a>
-                        &nbsp; <!--mellomrom-->
-                        <a href="https://www.linkedin.com/in/nikola-sekiw-9b7315190/" target="_blank">
-                            <i style='font-size:24px' class='fab'>&#xf08c;</i>
-                        </a>
+            <div class="card-deck justify-content-center">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <p></p>
+                    <div class="profilbilde" style="width:100%; text-align:center">
+                        <img class="card-img" src="Profilepictures/Nikola3.png" alt="Bilde av Nikola">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body-block text-center">
+                            <h5 class="card-title">Nikola Sekiw</h5>
+                            <p class="card-text">Anvendt datateknologi</p>
+                            <div class="card-block">
+                                <a href="mailto: s333975@oslomet.no">
+                                    <i class="fa">&#xf0e0;</i>
+                                </a>
+                                &nbsp; <!--mellomrom-->
+                                <a href="https://www.linkedin.com/in/nikola-sekiw-9b7315190/" target="_blank">
+                                    <i class='fab'>&#xf08c;</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <p></p>
+                    <div class="profilbilde" style="width:100%; text-align:center">
+                        <img class="card-img" src="Profilepictures/Synne.png" alt="Bilde av Synne">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body-block text-center">
+                            <h5 class="card-title">Synne Angell</h5>
+                            <p class="card-text">Informasjonsteknologi</p>
+                            <a href="mailto: s331153@oslomet.no">
+                                <i class="fa">&#xf0e0;</i>
+                            </a>
+                            &nbsp; <!--mellomrom-->
+                            <a href="https://www.linkedin.com/in/synne-angell-170257144/" target="_blank">
+                                <i class='fab'>&#xf08c;</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <p></p>
+                    <div class="profilbilde" style="width:100%; text-align:center">
+                        <img class="card-img" src="Profilepictures/Camilla.jpeg" alt="Bilde av Camilla">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body-block text-center">
+
+                            <h5 class="card-title">Camilla Harirchi Carlsen</h5>
+                            <p class="card-text">Anvendt datateknologi</p>
+                            <a href="mailto: s197235@oslomet.no">
+                                <i class="fa">&#xf0e0;</i>
+                            </a>
+                            &nbsp; <!--mellomrom-->
+                            <a href="https://www.linkedin.com/in/camilla-h-carlsen/" target="_blank">
+                                <i class='fab'>&#xf08c;</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <p></p>
+                    <div class="profilbilde" style="width:100%; text-align:center">
+                        <img class="card-img" src="Profilepictures/Martine3.jpeg" alt="Bilde av Martine">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body-block text-center">
+
+                            <h5 class="card-title">Martine Holmberg</h5>
+                            <p class="card-text">Anvendt datateknologi</p>
+                            <a href="mailto: s236808@oslomet.no">
+                                <i class="fa">&#xf0e0;</i>
+                            </a>
+                            &nbsp; <!--mellomrom-->
+                            <a href="https://www.linkedin.com/in/martine-holmberg/" target="_blank">
+                                <i class='fab'>&#xf08c;</i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-            <p></p>
-            <div class="profilbilde" style="width:100%; text-align:center">
-                <img class="card-img" src="Profilepictures/Synne.png" alt="Bilde av Synne">
-            </div>
-            <div class="card-body">
-                <div class="card-body-block text-center">
-                    <h5 class="card-title">Synne Angell</h5>
-                    <p class="card-text">Informasjonsteknologi</p>
-                    <a href="mailto: s331153@oslomet.no">
-                        <i style="font-size:24px" class="fa">&#xf0e0;</i>
-                    </a>
-                    &nbsp; <!--mellomrom-->
-                    <a href="https://www.linkedin.com/in/synne-angell-170257144/" target="_blank">
-                        <i style='font-size:24px' class='fab'>&#xf08c;</i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-            <p></p>
-            <div class="profilbilde" style="width:100%; text-align:center">
-                <img class="card-img" src="Profilepictures/Camilla.jpeg" alt="Bilde av Camilla">
-            </div>
-            <div class="card-body">
-                <div class="card-body-block text-center">
-
-                    <h5 class="card-title">Camilla Harirchi Carlsen</h5>
-                    <p class="card-text">Anvendt datateknologi</p>
-                    <a href="mailto: s197235@oslomet.no">
-                        <i style="font-size:24px" class="fa">&#xf0e0;</i>
-                    </a>
-                    &nbsp; <!--mellomrom-->
-                    <a href="https://www.linkedin.com/in/camilla-h-carlsen/" target="_blank">
-                        <i style='font-size:24px' class='fab'>&#xf08c;</i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-            <p></p>
-            <div class="profilbilde" style="width:100%; text-align:center">
-                <img class="card-img" src="Profilepictures/Martine3.jpeg" alt="Bilde av Martine">
-            </div>
-            <div class="card-body">
-                <div class="card-body-block text-center">
-
-                    <h5 class="card-title">Martine Holmberg</h5>
-                    <p class="card-text">Anvendt datateknologi</p>
-                    <a href="mailto: s236808@oslomet.no">
-                        <i style="font-size:24px" class="fa">&#xf0e0;</i>
-                    </a>
-                    &nbsp; <!--mellomrom-->
-                    <a href="https://www.linkedin.com/in/martine-holmberg/" target="_blank">
-                        <i style='font-size:24px' class='fab'>&#xf08c;</i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- DOKUMENTER -->
-        <div class="container-fluid padding">
-        <div class="row-welcome text-center">
-            <div class="col-12">
-                <h3 class="display-4" id="dokumenter">Dokumenter</h3>
-            </div>
+        <div class="container-fluid padding" id="dokumenter">
+            <h3 class="display-4">Dokumenter</h3>
             <hr>
+            <div class="card-deck justify-content-center">
+                <div class="card text-black bg-light mb-3"style="max-width: 18rem;">
+                    <div class="card-body-block text-center">
+                        <a href="Documents/Statusrapport_Gruppe32.pdf" target="_blank">
+                            <div class="card-header">Statusrapport</div>
+                        </a>
+                        <div class="card-body">Sist endret 23.10.2020</div>
+                        <div class="card-footer">
+                            <a href="Documents/Statusrapport_Gruppe32.pdf" download>
+                                <i class="material-icons" style="font-size:25px">picture_as_pdf</i>
+                                Last ned PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body-block text-center">
+                        <a href="Documents/Prosjektskisse_Gruppe32.pdf" target="_blank">
+                            <div class="card-header">Prosjektskisse</div>
+                        </a>
+                        <div class="card-body">Sist endret 11.11.2020</div>
+                        <div class="card-footer">
+                            <a href="Documents/Prosjektskisse_Gruppe32.pdf" download>
+                                <i class="material-icons">&#xe415;</i>
+                                Last ned PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body-block text-center">
+                        <a href="Documents/Forprosjektrapport_Gruppe32.pdf" target="_blank">
+                            <div class="card-header">Forprosjekt</div>
+                        </a>
+                        <div class="card-body">Sist endret 21.01.2021</div>
+                        <div class="card-footer">
+                            <a href="Documents/Forprosjekt_Gruppe32.pdf" download>
+                                <i class="material-icons">&#xe415;</i>
+                                Last ned PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body-block text-center">
+                        <a href="Documents/Sluttrapport_Gruppe32.pdf" target="_blank">
+                            <div class="card-header">Sluttrapport</div>
+                        </a>
+                        <div class="card-body">Sist endret xx.xx.xxxx</div>
+                        <div class="card-footer">
+                            <a href="Documents/Sluttrapport_Gruppe32.pdf" download>
+                                <i class="material-icons">&#xe415;</i>
+                                Last ned PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<footer>
+    <div class="container-fluid padding" id="footer">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <hr class="light">
+                <h5>Kontakt</h5>
+                <hr class="light">
+                <a href="https://www.facebook.com/zissonas/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/zisson-as/?originalSubdomain=no"><i class="fab fa-linkedin"></i></a>
+                <a href="tel:123-456-7890"><i class="fas fa-phone"></i></a>
+                <a href="mailto: support@zisson.no"><i class="fa fa-envelope"></i></a>
+            </div>
+            <div class="col-md-6">
+                <hr class="light">
+                <h5>Adresse</h5>
+                <hr class="light">
+                <p>Tollbugata 32</p>
+                <p>0157, Oslo</p>
+            </div>
         </div>
     </div>
-    <div class="card-deck" style="margin-bottom: 200px;">
-        <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-body-block text-center">
-                <a href="Documents/Statusrapport_Gruppe32.pdf" target="_blank">
-                    <div class="card-header">Statusrapport</div>
-                </a>
-                <div class="card-body">Sist endret 23.10.2020</div>
-                <div class="card-footer">
-                    <a href="Documents/Statusrapport_Gruppe32.pdf" download>
-                        <i class="material-icons" style="font-size:25px">picture_as_pdf</i>
-                        Last ned PDF
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-body-block text-center">
-                <a href="Documents/Prosjektskisse_Gruppe32.pdf" target="_blank">
-                    <div class="card-header">Prosjektskisse</div>
-                </a>
-                <div class="card-body">Sist endret 11.11.2020</div>
-                <div class="card-footer">
-                    <a href="Documents/Prosjektskisse_Gruppe32.pdf" download>
-                        <i class="material-icons">&#xe415;</i>
-                        Last ned PDF
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-body-block text-center">
-                <a href="Documents/Forprosjektrapport_Gruppe32.pdf" target="_blank">
-                    <div class="card-header">Forprosjekt</div>
-                </a>
-                <div class="card-body">Sist endret 21.01.2021</div>
-                <div class="card-footer">
-                    <a href="Documents/Forprosjekt_Gruppe32.pdf" download>
-                        <i class="material-icons">&#xe415;</i>
-                        Last ned PDF
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-body-block text-center">
-                <a href="Documents/Sluttrapport_Gruppe32.pdf" target="_blank">
-                    <div class="card-header">Sluttrapport</div>
-                </a>
-                <div class="card-body">Sist endret xx.xx.xxxx</div>
-                <div class="card-footer">
-                    <a href="Documents/Sluttrapport_Gruppe32.pdf" download>
-                        <i class="material-icons">&#xe415;</i>
-                        Last ned PDF
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</footer>
 
 </body>
 </html>
