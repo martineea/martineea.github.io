@@ -44,20 +44,20 @@ h1, h2 {
 
 #zisson {
     background-color: #87bdd8;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
 }
 
 #kontaktkort {
-    background-color: #b7d7e8;
-    padding-top: 50px;
+    background-color: #9fcae0;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 
 #dokumenter {
-    background-color: #cfe0e8;
-    padding-top: 50px;
-    padding-bottom: 250px;
+    background-color: #b2d5e6;
+    padding-top: 120px;
+    padding-bottom: 200px;
 }
 
 .display-4 {
@@ -70,29 +70,35 @@ h1, h2 {
 }
 
 #footer {
-    background-color: #CCD6DD;
+    background-color: #343a40;
+    color: white;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .fa-facebook {
     color: #2163af;
-    font-size: 30px;
+    font-color: #000000;
+    font-size: 25px;
+    margin-right: 8px;
 }
 
 .fa-linkedin {
     color: #3b5998;
-    font-size: 30px;
+    font-size: 25px;
+    margin-right: 8px;
 }
 
 .fa-phone {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
+    margin-right: 8px;
 }
 
 .fa-envelope {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
+    margin-right: 8px;
 }
 
 .social a {
@@ -102,6 +108,7 @@ h1, h2 {
 
 p {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 
 i {
