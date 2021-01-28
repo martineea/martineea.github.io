@@ -2,6 +2,12 @@
 # martineea.github.io
 > Dette er nettsiden for Bachelorprosjekt 2021
 
+### Teknologier & Verktøy
+| ![bootstrap](https://user-images.githubusercontent.com/44602947/106191117-bc837b00-61aa-11eb-8164-f1120bae52a9.png)
+ | ![css](https://user-images.githubusercontent.com/44602947/106191143-c4dbb600-61aa-11eb-9a9c-3b70282a4ce7.png)
+ | ![html](https://user-images.githubusercontent.com/44602947/106191183-d1f8a500-61aa-11eb-94ad-4ebfffa79de5.png)
+ |
+
 ### To-do:
 - Fikse slik at bildene blir skalert riktig når mindre skjerm
 - Legge på skygge på kortene?
