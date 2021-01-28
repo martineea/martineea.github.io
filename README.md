@@ -3,7 +3,9 @@
 > Dette er nettsiden for Bachelorprosjekt 2021
 
 ### Teknologier & Verktøy
-<img src="https://user-images.githubusercontent.com/44602947/106191117-bc837b00-61aa-11eb-8164-f1120bae52a9.png" style="width=10px;">
+<img src="https://user-images.githubusercontent.com/44602947/106191117-bc837b00-61aa-11eb-8164-f1120bae52a9.png" style="width=10px">
+<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/simpleicons.svg" />
+
 ![bootstrap](https://user-images.githubusercontent.com/44602947/106191117-bc837b00-61aa-11eb-8164-f1120bae52a9.png)
 ![css](https://user-images.githubusercontent.com/44602947/106191143-c4dbb600-61aa-11eb-9a9c-3b70282a4ce7.png)
 ![html](https://user-images.githubusercontent.com/44602947/106191183-d1f8a500-61aa-11eb-94ad-4ebfffa79de5.png)
