@@ -1,3 +1,4 @@
+![zissonzisson](https://user-images.githubusercontent.com/44602947/106187194-93142080-61a5-11eb-87a8-424f7c751ede.jpg)
 # martineea.github.io
 > Dette er nettsiden for Bachelorprosjekt 2021
 
