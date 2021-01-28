@@ -156,6 +156,9 @@ i {
   }
 
   .omZisson {
-      margin-top: 5em;
-      margin-bottom: 5em;
+      line-height: 40px;
+  }
+
+  .omOss {
+      line-height: 40px;
   }
