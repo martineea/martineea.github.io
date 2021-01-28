@@ -1,15 +1,11 @@
 # martineea.github.io
+> Dette er nettsiden for Bachelorprosjekt 2021
 
 ### To-do:
-- Gjøre layout finere:
-    - Endre farger, bakgrunnsfarge, osv.
-    - Finne en fin font
-- Fikse navbar
-    - Gjøre den finere
-    - Høyrestilt, venstrestilt, midtstilt?
-    - Fikse slik at når man trykker på noe i navbaren så blir ikke det gjemt under selve menyen
-~~- Fikse slik at når man trykker på pdf-filen så åpnes det i nytt vindu~~
-- Fikse slik at ikonet på dokumenter blir på lik linkje som "last ned pdf"-teksten
-~~- Midtstille~~ profilbildene våres~~
 - Fikse slik at bildene blir skalert riktig når mindre skjerm
 - Legge på skygge på kortene?
+- Fikse carousel når mobilfersjon
+- Legge til bakgrunnsbilder på carousel
+- Fikse cards for profilene, skalerer ikke riktig på liten skjerm
+- Fikse på tekst i carousel slidene (lenger opp og mer avstand mellom linjeje)
+- Fikse "gruppemedlemmer" teksten slik at den ikke går utenfor når liten skjerm
