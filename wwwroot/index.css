@@ -4,30 +4,16 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
 h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
 
 .card-img {
     border-radius: 50%;
-    width: 170px;
-    height: 170px;
-}
-
-.profilbilde {
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-inside: 10px;
-}
-
-.card {
-    border-radius: 7%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    padding: 10px 7px 0px 7px;
 }
 
 .navbar {
@@ -51,7 +37,7 @@ h1, h2 {
 #kontaktkort {
     background-color: #9fcae0;
     padding-top: 120px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 #dokumenter {
@@ -62,11 +48,6 @@ h1, h2 {
 
 .display-4 {
     text-align: center;
-}
-
-.card-deck {
-    margin-bottom: 250px;
-    align-items: center;
 }
 
 #footer {
@@ -89,13 +70,7 @@ h1, h2 {
     margin-right: 8px;
 }
 
-.fa-phone {
-    color: black;
-    font-size: 25px;
-    margin-right: 8px;
-}
-
-.fa-envelope {
+.fa-phone, .fa-envelope {
     color: black;
     font-size: 25px;
     margin-right: 8px;
@@ -119,6 +94,8 @@ i {
     max-width: 18rem;
     display: inline-block;
     margin: 20px;
+    color: white;
+    background-color: rgb(51, 56, 61);
 }
 
 .card-header {
@@ -130,6 +107,11 @@ i {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
+.card-title {
+    text-align: center;
+}
+
 
 .carousel-inner img {
     width: 100%;
@@ -163,3 +145,10 @@ i {
   .display-1, .display-2, .display-3 {
     color: #000000
   }
+
+  .profilbilde {
+      width: 100%;
+      text-align: center;
+  }
+
+  
