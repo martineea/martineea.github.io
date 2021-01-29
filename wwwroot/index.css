@@ -153,4 +153,7 @@ i {
       text-align: center;
   }
 
+.card-group {
+    justify-content: center;
+}
   
