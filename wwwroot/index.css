@@ -141,7 +141,8 @@ i {
 
   .omProsjektet, .omOss, .omZisson {
     line-height: 35px;
-    color: #000000
+    color: #000000;
+      text-align:left;
   }
 
   .display-1, .display-2, .display-3 {
