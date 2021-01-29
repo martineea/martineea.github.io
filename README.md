@@ -6,7 +6,6 @@
 <img src="https://user-images.githubusercontent.com/44602947/106191117-bc837b00-61aa-11eb-8164-f1120bae52a9.png" width="30" height="30">  <img src="https://user-images.githubusercontent.com/44602947/106191143-c4dbb600-61aa-11eb-9a9c-3b70282a4ce7.png" width="22" height="30">  <img src="https://user-images.githubusercontent.com/44602947/106191183-d1f8a500-61aa-11eb-94ad-4ebfffa79de5.png" width="30" height="30">
 
 ### To-do:
-- Fikse carousel når mobilfersjon
+- Fikse carousel når mobilversjon
 - Legge til bakgrunnsbilder på carousel
 - Fikse "gruppemedlemmer" teksten slik at den ikke går utenfor når liten skjerm
-- Bildene i kontaktkort skalerer ikke riktig på ipad
