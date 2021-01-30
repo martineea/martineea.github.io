@@ -8,3 +8,4 @@
 ### To-do:
 - Fikse skaleringen på teksten i carousel når liten skjerm
 - Legge til bakgrunnsbilder på carousel
+- Legge til mer padding i kontaktkort (mellom teksten og bildene og mellom teksten og selve kortet)
