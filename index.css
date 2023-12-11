@@ -1,0 +1,13 @@
+body {
+    background-color: #F0F8FF;
+}
+
+h1 {
+    color: black;
+    font-family: "Lucida Console";
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
