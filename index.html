@@ -3,45 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>Martines univers</title>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Midsommarafton 2023</h1>
+    <h1 style="text-align: center;">Martines univers</h1>
     <br><br>
-    
-    <div style="text-align:center" class="sticky">
-        <button button type="button" class="btn btn-outline-dark" onclick="playPause()">Spill av video / Pause</button> 
-        <br>
-
-        <video  id="video1" width="720" height="420">
-            <source src="C:\Users\marhol\Martine source\martineea.github.io\Midsommar.MOV" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-        
-    <script> 
-        var myVideo = document.getElementById("video1"); 
-        
-        function playPause() { 
-          if (myVideo.paused) 
-            myVideo.play(); 
-          else 
-            myVideo.pause(); 
-        } 
-        
-        function makeBig() { 
-            myVideo.width = 800; 
-        } 
-        
-        function makeSmall() { 
-            myVideo.width = 320; 
-        } 
-        
-        function makeNormal() { 
-            myVideo.width = 660; 
-        } 
-    </script> 
 </body>
 </html>
